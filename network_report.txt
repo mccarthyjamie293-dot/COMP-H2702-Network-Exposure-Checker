@@ -1,0 +1,24 @@
+--- Network Exposure Report ---
+Port 18080 : OPEN
+Port 19090 : OPEN
+Port 20001 : OPEN
+Port 20002 : CLOSED
+
+--- Port Summary ---
+Open ports: 3
+Closed ports: 1
+
+--- Service Banner ---
+Port 19090 banner: COMP H2702 Banner Service v1.0
+
+--- HTTP Service ---
+HTTP status: 200
+Content type: text/plain
+
+--- Generic TCP Service ---
+Port 20001 banner: COMP H2702 Generic TCP Service
+
+--- Security Analysis ---
+Port 18080 returned HTTP 200, showing the local HTTP service responded successfully.
+3 open ports were detected. These services may require further security investigation.
+An open port does not automatically mean a vulnerability exists. Further investigation is needed.
